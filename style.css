@@ -7,6 +7,7 @@
     height: 100vh;
     background: radial-gradient(circle at center, #444444, #000000);
     font-family: Helvetica, Arial;
+    overflow: hidden;
 }
 
 .shooter .start
@@ -87,9 +88,9 @@
     top: 50%;
     left: 50%;
     width: calc(100% / 3 * 2);
-    height: calc(100% / 3 * 2) ;
+    height: calc(100% / 3 * 2);
     transform: translate(-50%, -50%);
-    background: red;
+    background: #cd0000;
     border-radius: 50%;
 }
 
@@ -100,8 +101,8 @@
     top: 50%;
     left: 50%;
     width: calc(100% / 3);
-    height: calc(100% / 3) ;
+    height: calc(100% / 3);
     transform: translate(-50%, -50%);
-    background:#dddddd;
+    background: #dddddd;
     border-radius: 50%;
 }
